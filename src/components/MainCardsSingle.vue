@@ -25,7 +25,7 @@
 
 <style scoped lang="postcss">
   .card {
-    @apply cursor-pointer overflow-hidden rounded-md bg-slate-100 p-8 shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-slate-900;
+    @apply cursor-crosshair overflow-hidden rounded-md bg-cyan-100 p-8 shadow-md transition-transform duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-amber-300;
     &-image {
       img {
         @apply mx-auto rounded-full object-contain;
@@ -37,10 +37,10 @@
         @apply text-3xl font-thin  tracking-wider text-slate-800;
       }
       &-job {
-        @apply -mt-2 text-xs font-bold text-yellow-700;
+        @apply -mt-2 text-xs font-extrabold text-purple-700;
       }
       &-quote {
-        @apply pt-4 text-lg italic text-slate-800;
+        @apply pt-4 text-lg font-semibold italic text-slate-900;
       }
     }
   }
